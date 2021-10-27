@@ -1,0 +1,7 @@
+tr_lfm.dxe : ../project.ldf
+tr_lfm.dxe : C:\Milandr\CM-LYNX.2.02.00\toolchain\LibLLVM\StartUp.doj
+tr_lfm.dxe : ./tr_lfm.doj
+tr_lfm.dxe : C:\Milandr\CM-LYNX.2.02.00\toolchain\LibLLVM\clib.dlb
+tr_lfm.dxe : C:\Milandr\CM-LYNX.2.02.00\toolchain\LibLLVM\libcxx.dlb
+tr_lfm.dxe : C:\Milandr\CM-LYNX.2.02.00\toolchain\LibLLVM\libcxxabi.dlb
+tr_lfm.dxe : C:\Milandr\CM-LYNX.2.02.00\toolchain\LibLLVM\libunwind.dlb
