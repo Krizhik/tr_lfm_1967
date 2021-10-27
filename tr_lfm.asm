@@ -35,19 +35,9 @@ j0=stack;;//указатель на стек
 SQCTL = 0x1200;;//переход в режим супервизора
 j1=0x1f;;
 FLAGREG=j1;;
-/*j1=arrt;;
-//заполняем массив передачи
-xr0=0;;
-lc0 = 4096;;
-wr_tr:
-[j1+=1]=xr0;;
-xr0=r0+1;;
- if nlc0e, jump wr_tr;; //подождем*/
 call gen_lfm_sin_arr;nop;nop;;
 call LINK2_tr_init;nop;nop;;
 call dma6_init;nop;nop;;
-///*****
-
 _main_loop:
 nop;nop;nop;;
 nop;nop;nop;;
@@ -160,7 +150,7 @@ gen_lfm_sin_arr:
 	[j0+=1]=yr2;;
 	[j0+=1]=xr1;;
 	[j0+=1]=xr17;;
-	yr1=4;;//счетчик буфера
+	yr1=6;;//счетчик буфера
 	xr1=0.0;// начальное значение x
 	j4=sin_arr;;//указатель на буфер куда сгружаем все
 	j5=buf;;//указатель на буфер данных
